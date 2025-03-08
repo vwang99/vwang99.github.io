@@ -14,7 +14,7 @@ playerChoices.forEach(choice => {
 
 function computerTurn(playerPick) {
     const randomChoice = choices[Math.floor(Math.random() * choices.length)];
-    computerChoiceImg.src = `hw4sources/${randomChoice}.png`;
+    computerChoiceImg.src = `sources/${randomChoice}.png`;
     decideWinner(playerPick, randomChoice);
 }
 
