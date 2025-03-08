@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: #b039ff2a;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.choices img {
+    width: 100px;
+    margin: 10px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+
+#computer-choice {
+    width: 100px;
+    margin: 20px;
+}
+
+#outcome{
+    margin-top: 20px;
+}
+
+.selected {
+    border-color: blue;
+}
