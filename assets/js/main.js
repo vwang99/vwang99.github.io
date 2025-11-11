@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
 
 
 		/*======= Populate GitHub Projects *=======*/
-		let gitHubUsername = 'YOUR GITHUB USERNAME';
+		let gitHubUsername = 'vwang99';
 
 		// Run GitHub API function, passing in the GitHub username
 		requestUserRepos(gitHubUsername)
